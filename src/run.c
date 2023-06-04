@@ -1,7 +1,7 @@
 #include <stdio.h>
+#include <cell/cell.h>
 
 int main()
 {
-	printf("%s", "this is a simple shell");
-	return 0;
+	cell_loop();
 }
